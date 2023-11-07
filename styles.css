@@ -15,21 +15,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #FF0000; /* Canada red for headings */
 }
 
-.collapsible {
-    background-color: #FF0000; /* Canada red */
-    color: white;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 18px;
-    transition: 0.4s;
-}
-
-.active, .collapsible:hover {
-    background-color: #CC0000; /* Darker shade of red for active/hover state */
+hr {
+    border-color: #FF0000; /* Canada red for line breaks */
+    border-width: 3px;
+    margin: 20px 0;
 }
 
 .content {
