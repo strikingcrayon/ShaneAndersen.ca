@@ -41,3 +41,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Other styles can be added as needed */
+
+.content-with-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.text-content {
+  /* Adjust the width as necessary */
+  flex: 1;
+}
+
+.icon-container {
+  /* Adjust the width, padding, and margins as necessary */
+  padding-left: 20px; /* Adds space between the text and the icon */
+}
+
+@media (max-width: 768px) {
+  .content-with-icon {
+    flex-direction: column;
+  }
+
+  .icon-container {
+    padding-left: 0;
+    padding-top: 20px; /* Adds space between the text and the icon when stacked */
+  }
+}
